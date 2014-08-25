@@ -1,0 +1,61 @@
+/*input[type=submit].chkIn{background: lime;border: solid 1px #c0c0c0;border-radius: 0 5px 0 5px;padding:5px;cursor:pointer;box-shadow:3px 5px 5px 0 #c0c0c0;}
+input[type=submit].chkIn:hover{background: #dfdfdf;}*/
+
+.checkIn{font: normal 8pt Verdana;padding: 5px;width: 35%;}
+.checkIn fieldset{border:solid 1px #c0c0c0;padding: 5px;margin:10px;}
+.checkIn legend{font: bold 10pt Verdana;}
+
+.auto{clear:both;padding:2px;width:600px;margin:0 auto;}
+
+/* BOX DIVs */
+.blue-box{float:left;clear: none;width:45%;margin:10px;text-align: center;background: #6ea4e1;padding: 5px;overflow: hidden;font: normal 10pt Verdana;color: #fff;min-height:100px;}
+.blue-box input[type=text],input[type=password]{min-width: 140px;background: #6ea4e1;border: solid 1px #005291;border-radius: 0px;font: normal 10pt Verdana;color: #fff;padding:3px;}
+.blue-box input[type=text]:active,input[type=password]:active{background: #fff;}
+.blue-box input[type=text]:focus,input[type=password]:focus{background: #fff; color: #005291;}
+.blue-box input[type=submit]{background: #6ea4e1;color:#005291;border:solid 1px #005291;padding:5px;cursor:pointer;box-shadow:3px 5px 5px 0 #c0c0c0;}
+.blue-box input[type=submit]:hover{background:#c0c0c0;}
+.blue-box select {width: 145px;background:#6ea4e1;border:solid 1px #005291;border-radius:0;font: normal10px verdana;color:#005291;}
+.blue-box select:focus{background: #fff;color:#0079d7;}
+.blue-box a:link, a:active{color: #005291;text-decoration:none;}
+.blue-box a:hover{color: #005291;font-weight: bold;text-transform:uppercase;}
+.blue-box input::-webkit-input-placeholder{color:#005291;}
+.blue-box.user-times{float:right;font:normal 10pt Verdana;background:transparent;text-align:right;padding:5px;}
+
+
+
+/* Grey Box */
+.grey-box{float:left;clear: none;width:45%;margin:10px;text-align: center;background: #c0c0c0;padding: 5px;overflow: hidden;font: normal 16pt Verdana;color: #454545;min-height:100px;}
+.grey-box input[type=text], input[type=password]{min-width: 140px;background: #c0c0c0;border: solid 1px #606060;border-radius: 0px;font: normal 10pt Verdana;color: #808080;padding:3px;}
+.grey-box input[type=text]:active, input[type=password]:active{background: #fff;}
+.grey-box input[type=text]:focus, input[type=password]:focus{background: #fff; color: #005291;}
+.grey-box input[type=submit]{background: #c0c0c0;color:#404040;border:solid 1px #606060;border-radius:0;padding:3px;}
+.grey-box input[type=submit]:hover{cursor:pointer;background:#808080;color:#fff;border:solid 1px #808080;padding:3px;}
+.grey-box select {width: 145px;background:#6ea4e1;border:solid 1px #005291;border-radius:0;font: normal10px verdana;color:#005291;}
+.grey-box select:focus{background: #fff;color:#0079d7;}
+.grey-box input::-webkit-input-placeholder{color: #808080;}
+.grey-box input:-ms-input-placeholder{color:#808080;}
+.grey-box.user-times{float:right;font:normal 10pt Verdana;background:transparent;text-align:right;padding:5px;}
+
+.blue-box:hover{font-weight:bold;background:#c0c0c0;}
+.blue-box.linked.outer{float:left;clear:none;width: 70px;height:70px;margin-top:5px;margin-right:5px;}
+.blue-box.linked.inner,.grey-box.linked.inner{position:relative;top:50%;background:transparent;height:100px;}
+.blue-box.linked.outer:hover,.blue-box.linked.inner:hover{background: transparent;color:#000;font-weight:bold;}
+
+hr,.blue-box hr,.grey-box hr,.lBlue-box hr,.green-box hr{height:1px;border:0;
+			background-image:-webkit-linear-gradient(left,rgba(0,0,0,0), rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image:-moz-linear-gradient(left,rgba(0,0,0,0), rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image:-ms-linear-gradient(left,rgba(0,0,0,0), rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image:-o-linear-gradient(left,rgba(0,0,0,0), rgba(0,0,0,0.75),rgba(0,0,0,0));
+}
+.clear{clear:both;}
+.unlockCodes{float:left;width: 45%;padding: 5px;font: normal 10pt Verdana;background: #6ea4e1;margin-left:25%;}
+.unlockCodes .sub{float:left;clear: both;width:99%;}
+.unlockCodes .sub:hover{background:#dfdfdf;}
+.unlockCodes .sub .delClass{float:right;margin-top:-1px;margin-right:-6px;cursor:pointer;}
+.unlockCodes .sub .delClass:hover{font-weight:bold;}
+.unlockCodes table{width:99%;font:normal 8pt Verdana;}
+.unlockCodes a:link, a:active, a:visited{color: #005291;text-decoration:none;}
+.unlockCodes a:hover{color: #005291;font-weight: bold;text-transform:uppercase;}
+
+.error{width:99%;padding:5px;background:#fabfbf;font:normal 8pt Verdana;color:#a83535;border:solid 1px #a83535;}
+.cannot-login{font-size: 10pt;width:80%;margin:auto;}
